@@ -1,0 +1,18 @@
+server:
+    httpPort: 9000
+    corsOrigin: '*'
+logging:
+    level: 'debug'
+    color: true
+    showStackTraces: true
+postgres:
+    enabled: true
+    logQueries: false
+    logQueryResults: false
+    host: 'localhost'
+    port: '5432'
+    database: 'api'
+    username: 'admin'
+    password: 'admin'
+    clientPoolSize: 4
+    ssl: false

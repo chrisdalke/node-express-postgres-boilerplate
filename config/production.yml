@@ -1,0 +1,17 @@
+server:
+    corsOrigin: '*'
+logging:
+    level: 'debug'
+    color: true
+    showStackTraces: false
+postgres:
+    enabled: true
+    logQueries: false
+    logQueryResults: false
+    host: 'localhost'
+    port: '9902'
+    database: 'api'
+    username: 'admin'
+    password: 'admin'
+    clientPoolSize: 4
+    ssl: false

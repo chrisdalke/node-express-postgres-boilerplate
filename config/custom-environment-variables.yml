@@ -1,0 +1,15 @@
+server:
+    httpPort: 'SERVER_HTTP_PORT'
+logging:
+    level: 'LOGGING_LEVEL'
+    color: 'LOGGING_COLOR'
+    showStackTraces: 'LOGGING_SHOW_STACK_TRACES'
+postgres:
+    enabled: 'POSTGRES_ENABLED'
+    host: 'POSTGRES_HOST'
+    port: 'POSTGRES_PORT'
+    database: 'POSTGRES_DB'
+    username: 'POSTGRES_USER'
+    password: 'POSTGRES_PASSWORD'
+    clientPoolSize: 'POSTGRES_CLIENT_POOL_SIZE'
+    ssl: 'POSTGRES_SSL_MODE'

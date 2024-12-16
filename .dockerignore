@@ -1,0 +1,13 @@
+package-lock.json
+coverage
+.nyc_output/
+.vscode
+dist
+node_modules
+test
+README.md
+config/local.yml
+tmp/
+.env
+.git
+Dockerfile
